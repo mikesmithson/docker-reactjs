@@ -12,10 +12,10 @@ deploy:
     secure: $AWS_ACCESS_KEY
   secret_access_key: 
     secure: $AWS_SECRET_KEY
-  region: "us-east-2"
+  region: "us-east-1"
   app: "docker-reactjs"
   env: "DockerReactjs-env"
   edge: true
-  bucket_name: "elasticbeanstalk-us-east-2-411744094324"
+  bucket_name: "elasticbeanstalk-us-east-1-411744094324"
   on:
     branch: master
